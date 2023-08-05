@@ -140,7 +140,10 @@ ol {
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
   content: '';
-
+  position: relative;
+  inset-block-start: 1px;
+  inset-inline-start: 1px;
+  display: block;
   inline-size: 15px;
   block-size: 15px;
   background-color: #fff;

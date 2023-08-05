@@ -92,6 +92,8 @@ ol {
 }
 
 .search-form__textfield {
+  inline-size: 225px;
+  block-size: 27px;
   appearance: none;
   font: inherit;
   color: #fff;
@@ -99,8 +101,6 @@ ol {
   border: none;
   border-top: 1px solid #FFF;
   border-bottom: 1px solid #FFF;
-  inline-size: 225px;
-  block-size: 27px;
 }
 
 .search-form__textfield:focus {
